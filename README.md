@@ -140,9 +140,5 @@ The checked-in `train.py` reports recall, F1-score, ROC-AUC, confusion matrices,
 
 These are results on this dataset and split, not a guarantee of real-world performance. The dataset is small (478 rows after duplicate removal), and accuracy alone can hide missed dropout cases; recall, precision, class balance, and independent validation should also be considered.
 
-## Troubleshooting
-
-- **The browser cannot connect:** confirm the command window is still running and open http://127.0.0.1:5000.
-- **Dependency installation fails:** check the internet connection, confirm Python is installed, and retry `run.bat`.
-- **Port 5000 is already in use:** stop the other service using that port or change the port in `app.py`.
-- **Prediction request fails:** check that the server is running, send valid JSON, and include the expected feature names and values.
+## Author
+Darshan Shinde
